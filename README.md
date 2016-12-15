@@ -1,0 +1,2 @@
+# MSI-GT7x-VGA-SWITCH
+Selects VGA from LINUX or EFI!
