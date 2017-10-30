@@ -13,5 +13,23 @@ Just "make intel"  and "make nvidia" to compile the 2 C sources.
 
 A reboot is needed afterwards because the VGA is switched by BIOS at boot time.
 
+***UPDATE***
+
+msi_vga utility added!
+
+MSI VGA Select V0.2 by Zibri
+http://www.zibri.org
+
+Usage: ./msi_vga -s/-i/-n/-t
+
+-s Gets the name of the actual VGA
+-t Toggles between nvidia and intel VGA
+-n Sets nvidia VGA
+-i Sets intel VGA
+
+**WARNING**
+This program has been tested and works ONLY on the latest BIOS version (Version 11D)
+DO NOT USE IT on a different model unless you contact me first.
+
 Enjoy!
 (and write me a line if you use these)
