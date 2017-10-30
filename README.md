@@ -23,12 +23,16 @@ http://www.zibri.org
 Usage: ./msi_vga -s/-i/-n/-t
 
 -s Gets the name of the actual VGA
+
 -t Toggles between nvidia and intel VGA
+
 -n Sets nvidia VGA
+
 -i Sets intel VGA
 
 **WARNING**
 This program has been tested and works ONLY on the latest BIOS version (Version 11D)
+
 DO NOT USE IT on a different model unless you contact me first.
 
 Enjoy!
