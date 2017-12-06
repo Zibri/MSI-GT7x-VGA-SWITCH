@@ -20,7 +20,7 @@ print_usage ()
 unsigned char getvga() 
 {
     int fd1=-1;
-    unsigned char data=0x4c;
+    unsigned char data=0x4c;      // change to 0x49 if you have MSI GT73VR with bios E17A1IMS.10A
     unsigned char data2=0xff;
 
     fd1=open("/dev/port",O_RDWR|O_NDELAY);
@@ -39,7 +39,7 @@ unsigned char getvga()
 void setvga(unsigned char data2) 
 {
     int fd1=-1;
-    unsigned char data=0x4c;
+    unsigned char data=0x4c;      // change to 0x49 if you have MSI GT73VR with bios E17A1IMS.10A
 
     fd1=open("/dev/port",O_RDWR|O_NDELAY);
     if ( fd1 < 0 ) print_usage ();;
