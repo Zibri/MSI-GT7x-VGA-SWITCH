@@ -31,7 +31,7 @@ Usage: ./msi_vga -s/-i/-n/-t
 -i Sets intel VGA
 
 **WARNING**
-This program has been tested and works ONLY on the latest BIOS version (Version 11D)
+This program has been tested and works ONLY on the latest BIOS version (Version 11D and Version 122)
 
 DO NOT USE IT on a different model unless you contact me first.
 
